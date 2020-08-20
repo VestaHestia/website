@@ -1,1 +1,183 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#e5e5e5
+}
 
+/* Global */
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.urgent{
+	color:#ea5455;
+	font-weight:bold;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	float:left;
+	display:inline;
+	padding: 0 25px 0 25px;
+}
+
+#sold_out{
+	font-weight:bold;
+	color:#ffffff;
+}
+
+.button_1{
+	height:38px;
+	background:#decdc3;
+	border:none;
+	padding-left:20px;
+	padding-right:20px;
+	color:#2d4059;
+	font-weight:bold;
+}
+
+.button_1:hover{
+	color:#ffffff;
+}
+
+h3{
+	font-size:25px;
+	color:#2d4059;
+}
+
+/* Header */
+header{
+	background:#2d4059;
+	color:#e5e5e5;
+	padding-top:40px;
+	min-height:80px;
+	border-bottom:#ea5455 6px solid;
+}
+
+header a{
+	color:#e5e5e5;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:18px;
+}
+
+header #logo{
+	float:left;
+}
+
+header #logo h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+header .highlight, header .current a{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:110%;
+}
+
+header a:hover{
+	color:#ffffff;
+	font-weight:bolder;
+}
+
+/* Provo Valley Showcase */
+#showcase{
+	min-height:450px;
+	background:url('../img/provoValley.jpg') no-repeat 0 -150px;
+	text-align:center;
+	color:#e5e5e5;
+}
+
+#showcase h1{
+	margin-top:50px;
+	font-size:70px;
+	margin-bottom:25px;
+	color:#ffffff;
+}
+
+#showcase p{
+	font-size:25px;
+	margin:10px;
+}
+
+/* Benefits */
+#benefits{
+	padding:30px;
+	color:#ffffff;
+	background:#2d4059;
+	border-top:#e5e5e5 3px solid;
+}
+
+#benefits li{
+	font-size:25px;
+	padding: 0 0 0 0;
+	width:14%;
+	text-align:center;
+}
+
+/* Boxes */
+#boxes{
+	margin-top:20px;
+}
+
+#boxes .box{
+	float:left;
+	width:30%;
+	padding:15px;
+	text-align:center;
+	color:#2d4059;
+}
+
+#boxes .box h3{
+
+}
+
+#boxes .box img{
+	width:280px;
+	border:#2d4059 6px solid;
+}
+
+#boxes .box p{
+	margin-top:-15px;
+}
+
+/* Documents */
+#docs{
+	background:#2d4059;
+	border-bottom:#e5e5e5 3px solid;
+}
+
+#docs h1{
+	margin-top:30px;
+	font-size:40px;
+	margin-bottom:30px;
+	color:#ffffff;
+	text-align:center;
+}
+
+#docs form{
+	float:left;
+	width:25%;
+	text-align:center;
+	margin-bottom:40px;
+}
+
+/* Footer */
+footer{
+	padding:20px;
+	color:#ffffff;
+	background-color:#ea5455;
+	text-align:center;
+}
