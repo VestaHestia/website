@@ -99,9 +99,16 @@ header .highlight, header .current a{
 	font-size:110%;
 }
 
+header a{
+	transition:all .3s;
+}
+
 header a:hover{
 	color:#ffffff;
 	font-weight:bolder;
+	background-color:#ea5455;
+	padding:5px;
+	border-radius:6px;
 }
 
 /* Provo Valley Showcase */
@@ -160,11 +167,16 @@ header a:hover{
 #boxes .box img{
 	width:280px;
 	border:#2d4059 8px solid;
+	transition:all .5s;
+}
+
+#boxes .box img:hover{
+	transform:scale(1.1);
 }
 
 #boxes .box h3{
 	font-size:28px;
-	margin-top:0;
+	margin-top:10px;
 	margin-bottom:20px;
 }
 
