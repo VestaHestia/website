@@ -64,7 +64,6 @@ h3{
 
 /* Header */
 header{
-
 	background:#2d4059;
 	color:#e5e5e5;
 	padding-top:40px;
@@ -253,4 +252,66 @@ footer{
 	color:#ffffff;
 	background-color:#ea5455;
 	text-align:center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+	header #logo,
+	header nav,
+	header nav li,
+	#benefits,
+	#benefits li,
+	#boxes,
+	#boxes .box,
+	#docs form,
+	.main_column,
+	.sidebar
+	{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+
+	header nav li{
+		line-height:3.0;
+		display:block;
+		margin-left:-25px;
+	}
+
+	header .current a, header nav li{
+		font-size:20px;
+	}
+
+	header #logo{
+		margin-bottom:20px;
+		font-size: 20px;
+	}
+
+	header{
+		padding-bottom:20px;
+	}
+
+	#showcase{
+		padding-bottom:30px;
+	}
+
+	#showcase h1{
+		margin-top:40px;
+		line-height:1.4;
+	}
+
+	#benefits li{
+		display:block;
+		margin-left:-25px;
+	}
+
+	#boxes .box{
+		margin-left:-30px;
+		border-radius:0;
+		margin-bottom: 25px;
+	}
+
+	#docs form{
+		margin-bottom:30px;
+	}
 }
