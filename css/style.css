@@ -246,6 +246,11 @@ aside h3{
 	text-align:center;
 }
 
+/* Contact */
+#contact{
+	font-size:40px;
+}
+
 /* Footer */
 footer{
 	padding:20px;
