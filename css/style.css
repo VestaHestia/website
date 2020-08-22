@@ -364,6 +364,11 @@ footer{
 		margin-bottom:30px;
 	}
 
+	.sidebar{
+		border-radius:0;
+		margin-top:35px;
+	}
+
 	.money{
 		font-size:15px;
 	}
