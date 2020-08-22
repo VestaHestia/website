@@ -296,10 +296,13 @@ footer{
 	}
 
 	#img_logo{
+		/*
 		position:absolute;
 		top:3330px;
 		left:135px;
 		transform:scale(.4);
+		*/
+		display:none;
 	}
 
 	header nav li{
@@ -329,6 +332,7 @@ footer{
 		margin-top:40px;
 		margin-bottom:40px;
 		line-height:1.4;
+		width:100%;
 	}
 
 	#benefits{
@@ -346,11 +350,15 @@ footer{
 		margin-bottom: 25px;
 	}
 
+	#boxes .box p{
+		width:100%;
+	}
+
 	#docs form{
 		margin-bottom:30px;
 	}
 
 	footer{
-		padding-bottom:90px;
+		/*padding-bottom:90px;*/
 	}
 }
