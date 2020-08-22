@@ -331,6 +331,7 @@ footer{
 	#showcase h1{
 		margin-top:40px;
 		margin-bottom:40px;
+		font-size:60px;
 		line-height:1.4;
 		width:100%;
 	}
@@ -351,7 +352,8 @@ footer{
 	}
 
 	#boxes .box p{
-		width:100%;
+		width:70%;
+		float:left;
 	}
 
 	#docs form{
