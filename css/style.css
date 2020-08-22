@@ -352,12 +352,16 @@ footer{
 	}
 
 	#boxes .box p{
-		width:70%;
-		float:left;
+		width:80%;
+		margin-left:35px;
 	}
 
 	#docs form{
 		margin-bottom:30px;
+	}
+
+	.money{
+		font-size:15px;
 	}
 
 	footer{
