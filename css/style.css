@@ -251,6 +251,13 @@ header a:hover{
 	margin:0;
 }
 
+.contact_info{
+	color:#ea5455;
+	font-weight:bold;
+	font-size:25px;
+	margin:0;
+}
+
 /* Sidebar Content */
 .sidebar{
 	float:right;
@@ -258,7 +265,7 @@ header a:hover{
 	margin-top:0;
 	background-color:#2d4059;
 	padding-bottom:30px;
-	border-radius:50px;
+	border-radius:30px;
 }
 
 aside h3{
@@ -360,6 +367,10 @@ footer{
 		margin-left:35px;
 	}
 
+	#boxes .box img{
+		margin-left:10px;
+	}
+
 	#docs form{
 		margin-bottom:30px;
 	}
@@ -369,7 +380,7 @@ footer{
 		margin-top:35px;
 	}
 
-	.money{
+	.contact_info{
 		font-size:15px;
 	}
 
