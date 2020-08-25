@@ -91,11 +91,12 @@ header #logo{
 }
 
 #img_logo{
-	float:left;
-	position:absolute;
-	top:-35px;
-	left:40px;
 	transform:scale(.4);
+	max-width:100%;
+	height:auto;
+	float:left;
+	margin-right:-150px;
+	margin-top:-75px;
 }
 
 header #logo h1{
@@ -172,11 +173,16 @@ header a:hover{
 	width:25%;
 	padding:25px;
 	padding-top:35px;
+	margin-right:25px;
+	margin-left:25px;
 	text-align:center;
 	color:#2d4059;
 	background-color:#ffffff;
 	border-radius:20px;
-	margin-left:50px;
+}
+
+.parentContainer{
+	white-space:nowrap;
 }
 
 #boxes .box img{
@@ -286,7 +292,57 @@ footer{
 	text-align:center;
 }
 
+
 /* Media Queries */
+@media(max-width: 1600px){
+	header #logo,
+	header nav,
+	header nav li,
+	.main_column,
+	.sidebar
+	{
+		float:none;
+		text-align:center;
+		width:100%;
+		overflow:hidden;
+	}
+
+	header #logo{
+		margin-bottom:15px;
+	}
+
+	header nav{
+		padding:15px;
+	}
+
+	header nav li{
+		display:inline-block;
+		width:auto;
+	}
+
+	.parentContainer{
+		display:flex;
+		justify-content:center;
+	}
+
+	#boxes .box h3, #boxes .box h4, #boxes .box p{
+		white-space:normal;
+	}
+
+	#boxes .box h3{
+		font-size:20px;
+	}
+
+	#boxes .box h4{
+		font-size:15px;
+	}
+
+	.sidebar{
+		border-radius:0;
+		margin-top:20px;
+	}
+}
+
 @media(max-width: 768px){
 	header #logo,
 	header nav,
@@ -295,6 +351,7 @@ footer{
 	#benefits li,
 	#boxes,
 	#boxes .box,
+	#boxes .box p,
 	#docs form,
 	#showcase,
 	.main_column,
@@ -307,19 +364,14 @@ footer{
 	}
 
 	#img_logo{
-		/*
-		position:absolute;
-		top:3330px;
-		left:135px;
-		transform:scale(.4);
-		*/
 		display:none;
 	}
 
 	header nav li{
 		line-height:3.0;
 		display:block;
-		margin-left:-25px;
+		padding:0 0 0 0;
+		margin-left:-20px;
 	}
 
 	header .current a, header nav li{
@@ -354,21 +406,23 @@ footer{
 
 	#benefits li{
 		display:block;
+		margin:0;
+	}
+
+	.parentContainer{
+		display:block;
 	}
 
 	#boxes .box{
-		margin-left:-30px;
+		display:block;
 		border-radius:0;
+		margin:0;
+		padding-left:0;
 		margin-bottom: 25px;
 	}
 
-	#boxes .box p{
-		width:80%;
-		margin-left:35px;
-	}
-
 	#boxes .box img{
-		margin-left:10px;
+		margin:0;
 	}
 
 	#docs form{
