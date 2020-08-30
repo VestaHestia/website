@@ -127,12 +127,16 @@ header a:hover{
 	border-radius:6px;
 }
 
-/* Provo Valley Showcase */
+/* BYU Valley Showcase */
 #showcase{
 	min-height:450px;
-	background:url('../img/provoValley.jpg') no-repeat 0 -150px;
+	background:url('../img/byu_valley_sat.png') no-repeat 0 -80px;
 	text-align:center;
 	color:#e5e5e5;
+}
+
+#available{
+	color:#ffffff;
 }
 
 #showcase h1{
