@@ -231,6 +231,8 @@ header a:hover{
 #docs .container {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 #docs form{
