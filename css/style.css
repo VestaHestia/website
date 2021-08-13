@@ -228,8 +228,12 @@ header a:hover{
 	text-align:center;
 }
 
+#docs .container {
+	display: flex;
+	justify-content: center;
+}
+
 #docs form{
-	float:left;
 	width:25%;
 	text-align:center;
 	margin-bottom:40px;
